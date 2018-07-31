@@ -1,7 +1,5 @@
 body, html {
-
-  font-family: 'Nanum Pen Script', cursive;
-  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .container {
@@ -27,80 +25,91 @@ padding-top: 40px;
 
 }
 .education, .aboutMe {
-    background-color: #ad1457;
+    background-color: #75546f;
 }
-.address, .date-of-birth, .phone, .mail, .profile, .aboutMe-content, .myCV, .table-borderless {
+.address, .date-of-birth, .phone, .mail, .profile, myCV, .table-borderless {
     margin-top: 30px;
 }
-.address h4, .date-of-birth h4, .phone h4, .mail h4, .profile h4 {
-    font-weight: bolder;
-    margin-bottom: 0px;
-   font-size: 40px;
+.aboutMe-content {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
+.aboutMe-content p {
+  margin-bottom: 0px;
+}
+.address h4, .date-of-birth h4, .phone h4, .mail h4, .profile h4, .myCV h4 {
+    margin-bottom: 0px;
+   font-size: 30px;
+}
+
 .myHobbies h2 {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 .address p, .date-of-birth p, .phone p, .mail p, .profile p, .aboutMe-content p, .myCV p {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 
 .table-borderless td, .table-borderless th {
   font-size: 25px;
 }
+.table-borderless th {
+  text-align: left;
+}
 .progress-bar span {
-  font-size: 30px;
+  font-size: 20px;
+  font-weight: bolder;
 }
 #mail-to, #mygithub, #mylinkedin, #MyCV {
   color: #212529;
 }
 #mail-to:hover {
-  color: #33691e;
+  color: #51662b;
 }
 #mylinkedin:hover {
   color: #ad1457 ;
 }
 #mygithub:hover {
-  color: #ff6f00 ;
+  color: #b9562f ;
 }
 #MyCV:hover {
-  color: #00838f;
+  color: #b64a4a;
 }
 .about-me-cv p {
   font-size: 30px;
 }
 .address h4, .myCV h4 {
-    color: #33691e;
+    color: #51662b;
 }
 .date-of-birth h4 {
-    color: #ad1457 ;
+    color: #75546f ;
 }
 .phone h4 {
-    color: #ff6f00 ;
+    color: #b9562f ;
 }
 .contact, .languages {
-    background-color: #ff6f00;
+    background-color: #b9562f;
 }
 
 .myHobbies-content img{
   width: 100px;
 }
 .myHobbies-content {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 .mail h4 {
-    color: #00838f ;
+    color: #b64a4a;
 }
 .profile h4 {
-  color: #4e342e;
+  color: #e7b645;
 }
 
 .work-experience {
-    background-color: #33691e;
+    background-color: #51662b;
 }
 .myHobbies {
-  background-color:#4e342e ;
+  background-color:#e7b645 ;
 }
 .col-work-experience {
     padding-left: 60px;
@@ -118,7 +127,7 @@ padding-top: 40px;
 }
 
 .skills {
-    background-color: #00838f ;
+    background-color: #bba249;
 }
 .section-progress-bar {
     padding-left: 5px;
@@ -127,19 +136,19 @@ padding-top: 40px;
 
 }
 .first-progress-bar {
-    background-color: #ff6f00;
+    background-color: #b9562f;
 }
 .second-progress-bar {
-    background-color: #33691e;
+    background-color: #51662b;
 }
 .third-progress-bar {
-    background-color: #ad1457 ;
+    background-color: #75546f ;
 }
 .fourth-progress-bar {
-    background-color: #00838f;
+    background-color: #b64a4a;
 }
 .fifth-progress-bar {
-    background-color: #4e342e ;
+    background-color: #e7b645 ;
 }
 .skills h2 {
     margin-bottom: 0px;
@@ -175,7 +184,7 @@ padding-top: 40px;
 
 .pie, .circle2 .bar, .circle2.p51 .fill, .circle2.p52 .fill, .circle2.p53 .fill, .circle2.p54 .fill, .circle2.p55 .fill, .circle2.p56 .fill, .circle2.p57 .fill, .circle2.p58 .fill, .circle2.p59 .fill, .circle2.p60 .fill, .circle-2.p61 .fill, .circle2.p62 .fill, .circle2.p63 .fill, .circle2.p64 .fill, .circle2.p65 .fill, .circle2.p66 .fill, .circle2.p67 .fill, .circle2.p68 .fill, .circle2.p69 .fill, .circle2.p70 .fill, .circle2.p71 .fill, .circle2.p72 .fill, .circle2.p73 .fill, .circle2.p74 .fill, .circle2.p75 .fill, .circle2.p76 .fill, .circle2.p77 .fill, .circle2.p78 .fill, .circle2.p79 .fill, .circle2.p80 .fill, .circle2.p81 .fill, .circle2.p82 .fill, .circle2.p83 .fill, .circle2.p84 .fill, .circle2.p85 .fill, .circle2.p86 .fill, .circle2.p87 .fill, .circle2.p88 .fill, .circle2.p89 .fill, .circle2.p90 .fill, .circle2.p91 .fill, .circle2.p92 .fill, .circle2.p93 .fill, .circle2.p94 .fill, .circle2.p95 .fill, .circle2.p96 .fill, .circle2.p97 .fill, .circle2.p98 .fill, .circle2.p99 .fill, .circle2.p100 .fill {
   position: absolute;
-  border: 0.08em solid #00838f;
+  border: 0.08em solid #b64a4a;
   width: 0.84em;
   height: 0.84em;
   clip: rect(0em, 0.5em, 1em, 0em);
@@ -192,7 +201,7 @@ padding-top: 40px;
 }
 .pie, .circle3 .bar, .circle3.p51 .fill, .circle3.p52 .fill, .circle3.p53 .fill, .circle3.p54 .fill, .circle3.p55 .fill, .circle3.p56 .fill, .circle3.p57 .fill, .circle3.p58 .fill, .circle3.p59 .fill, .circle3.p60 .fill, .circle3.p61 .fill, .circle3.p62 .fill, .circle3.p63 .fill, .circle3.p64 .fill, .circle3.p65 .fill, .circle3.p66 .fill, .circle3.p67 .fill, .circle3.p68 .fill, .circle3.p69 .fill, .circle3.p70 .fill, .circle3.p71 .fill, .circle3.p72 .fill, .circle3.p73 .fill, .circle3.p74 .fill, .circle3.p75 .fill, .circle3.p76 .fill, .circle3.p77 .fill, .circle3.p78 .fill, .circle3.p79 .fill, .circle3.p80 .fill, .circle3.p81 .fill, .circle3.p82 .fill, .circle3.p83 .fill, .circle3.p84 .fill, .circle3.p85 .fill, .circle3.p86 .fill, .circle3.p87 .fill, .circle3.p88 .fill, .circle3.p89 .fill, .circle3.p90 .fill, .circle3.p91 .fill, .circle3.p92 .fill, .circle3.p93 .fill, .circle3.p94 .fill, .circle3.p95 .fill, .circle3.p96 .fill, .circle3.p97 .fill, .circle3.p98 .fill, .circle3.p99 .fill, .circle3.p100 .fill {
   position: absolute;
-  border: 0.08em solid #ad1457;
+  border: 0.08em solid #bba249;
   width: 0.84em;
   height: 0.84em;
   clip: rect(0em, 0.5em, 1em, 0em);
@@ -209,7 +218,7 @@ padding-top: 40px;
 }
 .pie, .circle .bar, .circle.p51 .fill, .circle.p52 .fill, .circle.p53 .fill, .circle.p54 .fill, .circle.p55 .fill, .circle.p56 .fill, .circle.p57 .fill, .circle.p58 .fill, .circle.p59 .fill, .circle.p60 .fill, .circle.p61 .fill, .circle.p62 .fill, .circle.p63 .fill, .circle.p64 .fill, .circle.p65 .fill, .circle.p66 .fill, .circle.p67 .fill, .circle.p68 .fill, .circle.p69 .fill, .circle.p70 .fill, .circle.p71 .fill, .circle.p72 .fill, .circle.p73 .fill, .circle.p74 .fill, .circle.p75 .fill, .c100.p76 .fill, .circle.p77 .fill, .circle.p78 .fill, .circle.p79 .fill, .circle.p80 .fill, .circle.p81 .fill, .circle.p82 .fill, .circle.p83 .fill, .circle.p84 .fill, .circle.p85 .fill, .circle.p86 .fill, .circle.p87 .fill, .circle.p88 .fill, .circle.p89 .fill, .circle.p90 .fill, .circle.p91 .fill, .circle.p92 .fill, .circle.p93 .fill, .circle.p94 .fill, .circle.p95 .fill, .circle.p96 .fill, .circle.p97 .fill, .circle.p98 .fill, .circle.p99 .fill, .circle.p100 .fill {
   position: absolute;
-  border: 0.08em solid #33691e;
+  border: 0.08em solid #51662b;
   width: 0.84em;
   height: 0.84em;
   clip: rect(0em, 0.5em, 1em, 0em);
@@ -1025,14 +1034,14 @@ padding-top: 40px;
 }
 .circle3:hover > span {
 
-    color: #ad1457;
+    color: #bba249;
 }
 .circle2:hover > span {
-    color: #00838f;
+    color: #b64a4a;
 }
 
 .circle:hover > span {
-    color: #33691e;
+    color: #51662b;
 }
 .languages h2 {
     margin-bottom: 0px;
