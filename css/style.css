@@ -1072,6 +1072,12 @@ padding-top: 40px;
   margin-bottom: 30px;
 }
 
+.years-education {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
 
 
 
@@ -1102,7 +1108,16 @@ padding-top: 40px;
     .address h4, .date-of-birth h4, .phone h4, .mail h4, .profile h4, .myCV h4 {
       font-size: 25px;
     }
+    .contact h2, .work-experience h2, .skills h2, .languages h2, .education h2, .aboutMe h2, .myHobbies h2 {
+      font-size: 30px;
+    }
 
+    .years-education {
+      font-size: 25px;
+    }
+.section-progress-bar h4 {
+  font-size: 20px;
+}
 }
 
 @media (min-width: 1224px) {
