@@ -33,7 +33,7 @@ padding-top: 40px;
 .education, .aboutMe {
     background-color: #75546f;
 }
-.address, .date-of-birth, .phone, .mail, .profile, myCV, .table-borderless {
+.address, .date-of-birth, .phone, .mail, .profile, .myCV, .table-borderless {
     margin-top: 30px;
 }
 .aboutMe-content {
@@ -1092,11 +1092,15 @@ padding-top: 40px;
     }
     .about-me-cv h2 {
       margin-bottom: 15px;
-      font-size: 30px;
+      font-size: 25px;
     }
 
     .address p, .date-of-birth p, .phone p, .mail p, .profile p, .aboutMe-content p, .myCV p {
        font-size: 20px;
+    }
+
+    .address h4, .date-of-birth h4, .phone h4, .mail h4, .profile h4, .myCV h4 {
+      font-size: 25px;
     }
 
 }
