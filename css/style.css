@@ -1068,6 +1068,10 @@ padding-top: 40px;
   width: 100%;
 }
 
+.about-me-cv h2 {
+  margin-bottom: 30px;
+}
+
 
 
 
@@ -1083,6 +1087,18 @@ padding-top: 40px;
     .myHobbies-content img {
       padding-top: 30px;
     }
+    .about-me-cv p {
+      font-size: 20px;
+    }
+    .about-me-cv h2 {
+      margin-bottom: 15px;
+      font-size: 30px;
+    }
+
+    .address p, .date-of-birth p, .phone p, .mail p, .profile p, .aboutMe-content p, .myCV p {
+       font-size: 20px;
+    }
+
 }
 
 @media (min-width: 1224px) {
