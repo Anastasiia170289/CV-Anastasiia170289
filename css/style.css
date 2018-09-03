@@ -1118,6 +1118,12 @@ padding-top: 40px;
 .section-progress-bar h4 {
   font-size: 20px;
 }
+.bg-image-autumn {
+  height: 250px;
+}
+.main-raised {
+  margin-top: -150px;
+}
 }
 
 @media (min-width: 1224px) {
