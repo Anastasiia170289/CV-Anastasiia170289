@@ -13,6 +13,12 @@ img.img-fluid {
   border-radius:5px;
 }
 
+
+.main-raised {
+ margin: -200px 30px 0;
+}
+
+
 .about-me-cv {
 padding-top: 40px;
 }
@@ -50,10 +56,6 @@ padding-top: 40px;
   font-size: 25px;
 }
 
-
-.table-borderless td, .table-borderless th {
-  font-size: 25px;
-}
 .table-borderless th {
   text-align: left;
 }
@@ -1061,12 +1063,16 @@ padding-top: 40px;
 .education h2 {
   margin-bottom: 30px;
 }
+.bg-image-autumn {
+  height: 400px;
+  width: 100%;
+}
 
 
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 760px) {
     .col-contact-me {
         padding-right: 0px;
     }
@@ -1074,6 +1080,26 @@ padding-top: 40px;
         padding-left: 0px;
     }
 
+    .myHobbies-content img {
+      padding-top: 30px;
+    }
+}
+
+@media (min-width: 1224px) {
+
+     .bg-image-autumn{
+       height: 550px;
+     }
+  .main-raised {
+    margin-top: -250px;
+  }
+}
+@media (min-width: 768px) {
+
+  .table-borderless td, .table-borderless th {
+  font-size: 25px;
+}
+  
 }
 
 
