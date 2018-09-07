@@ -1125,9 +1125,29 @@ padding-top: 40px;
   margin-top: -150px;
 }
 
-.container-fluid {
+#main-cv-content {
   padding: 0px;
 }
+
+}
+@media( min-width: 769px) {
+  .my-hobbies-second-row {
+    display: none;
+  }
+  .my-hobbies-third-row {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+
+ .my-hobbies-first-row {
+  display: none;
+}
+  .my-hobbies-third-row {
+    padding-top: 30px;
+  }
+
 }
 
 @media (min-width: 1224px) {
