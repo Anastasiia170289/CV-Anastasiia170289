@@ -1124,6 +1124,10 @@ padding-top: 40px;
 .main-raised {
   margin-top: -150px;
 }
+
+.container-fluid {
+  padding: 0px;
+}
 }
 
 @media (min-width: 1224px) {
